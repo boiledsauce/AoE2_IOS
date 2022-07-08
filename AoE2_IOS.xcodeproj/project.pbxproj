@@ -11,6 +11,15 @@
 		3DEA88D0286600690009F947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA88CF286600690009F947 /* ContentView.swift */; };
 		3DEA88D2286600690009F947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA88D1286600690009F947 /* Assets.xcassets */; };
 		3DEA88D5286600690009F947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA88D4286600690009F947 /* Preview Assets.xcassets */; };
+		3DEA88DD28673D150009F947 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 3DEA88DC28673D150009F947 /* BetterSafariView */; };
+		3DEA88E0286C3CFD0009F947 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA88DF286C3CFD0009F947 /* Match.swift */; };
+		3DEA88E2286C6A050009F947 /* RatingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA88E1286C6A050009F947 /* RatingHistory.swift */; };
+		3DEA88E5286C6DA60009F947 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 3DEA88E4286C6DA60009F947 /* SwiftSoup */; };
+		3DEA88E828703E690009F947 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 3DEA88E728703E690009F947 /* Starscream */; };
+		3DEA88EA28719A2B0009F947 /* AoESocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA88E928719A2B0009F947 /* AoESocket.swift */; };
+		3DEA88EC2871A64F0009F947 /* RatingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA88EB2871A64F0009F947 /* RatingDetails.swift */; };
+		3DF7A15F287812DA00794EB7 /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7A15E287812DA00794EB7 /* PlayersView.swift */; };
+		3DF7A1612878199C00794EB7 /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7A1602878199C00794EB7 /* PlayersViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,13 @@
 		3DEA88CF286600690009F947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DEA88D1286600690009F947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DEA88D4286600690009F947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DEA88DE286835F40009F947 /* AoE2-IOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AoE2-IOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3DEA88DF286C3CFD0009F947 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		3DEA88E1286C6A050009F947 /* RatingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingHistory.swift; sourceTree = "<group>"; };
+		3DEA88E928719A2B0009F947 /* AoESocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoESocket.swift; sourceTree = "<group>"; };
+		3DEA88EB2871A64F0009F947 /* RatingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDetails.swift; sourceTree = "<group>"; };
+		3DF7A15E287812DA00794EB7 /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+		3DF7A1602878199C00794EB7 /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEA88DD28673D150009F947 /* BetterSafariView in Frameworks */,
+				3DEA88E5286C6DA60009F947 /* SwiftSoup in Frameworks */,
+				3DEA88E828703E690009F947 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +70,17 @@
 		3DEA88CC286600690009F947 /* AoE2_IOS */ = {
 			isa = PBXGroup;
 			children = (
+				3DEA88DE286835F40009F947 /* AoE2-IOS-Info.plist */,
 				3DEA88CD286600690009F947 /* AoE2_IOSApp.swift */,
 				3DEA88CF286600690009F947 /* ContentView.swift */,
+				3DF7A1602878199C00794EB7 /* PlayersViewModel.swift */,
+				3DF7A15E287812DA00794EB7 /* PlayersView.swift */,
+				3DEA88EB2871A64F0009F947 /* RatingDetails.swift */,
+				3DEA88E928719A2B0009F947 /* AoESocket.swift */,
 				3DEA88D1286600690009F947 /* Assets.xcassets */,
 				3DEA88D3286600690009F947 /* Preview Content */,
+				3DEA88DF286C3CFD0009F947 /* Match.swift */,
+				3DEA88E1286C6A050009F947 /* RatingHistory.swift */,
 			);
 			path = AoE2_IOS;
 			sourceTree = "<group>";
@@ -83,6 +109,11 @@
 			dependencies = (
 			);
 			name = AoE2_IOS;
+			packageProductDependencies = (
+				3DEA88DC28673D150009F947 /* BetterSafariView */,
+				3DEA88E4286C6DA60009F947 /* SwiftSoup */,
+				3DEA88E728703E690009F947 /* Starscream */,
+			);
 			productName = AoE2_IOS;
 			productReference = 3DEA88CA286600690009F947 /* AoE2_IOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,11 @@
 				Base,
 			);
 			mainGroup = 3DEA88C1286600690009F947;
+			packageReferences = (
+				3DEA88DB28673D150009F947 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+				3DEA88E3286C6DA60009F947 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				3DEA88E628703E690009F947 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = 3DEA88CB286600690009F947 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +174,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DEA88D0286600690009F947 /* ContentView.swift in Sources */,
+				3DEA88EC2871A64F0009F947 /* RatingDetails.swift in Sources */,
+				3DEA88E2286C6A050009F947 /* RatingHistory.swift in Sources */,
 				3DEA88CE286600690009F947 /* AoE2_IOSApp.swift in Sources */,
+				3DEA88EA28719A2B0009F947 /* AoESocket.swift in Sources */,
+				3DF7A1612878199C00794EB7 /* PlayersViewModel.swift in Sources */,
+				3DF7A15F287812DA00794EB7 /* PlayersView.swift in Sources */,
+				3DEA88E0286C3CFD0009F947 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +314,7 @@
 				DEVELOPMENT_TEAM = 74MHBCDTZC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AoE2-IOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +344,7 @@
 				DEVELOPMENT_TEAM = 74MHBCDTZC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AoE2-IOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +385,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DEA88DB28673D150009F947 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		3DEA88E3286C6DA60009F947 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		3DEA88E628703E690009F947 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DEA88DC28673D150009F947 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DEA88DB28673D150009F947 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+		3DEA88E4286C6DA60009F947 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DEA88E3286C6DA60009F947 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		3DEA88E728703E690009F947 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DEA88E628703E690009F947 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3DEA88C2286600690009F947 /* Project object */;
 }
